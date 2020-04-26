@@ -17,6 +17,7 @@ Similar functionality:
 * [Wirecast includes virtual camera support](http://www.telestream.net/pdfs/user-guides/Wirecast-8-User-Guide-Windows.pdf) on both Windows and Mac.
 * [It was possible](https://github.com/zakk4223/SyphonInject) to inject Syphon functionality into a process that draws to a GL context until some Mac security changes broke this.
 * [The Snap Camera](https://snapcamera.snapchat.com) is an example of an application that consumes input from a hardware webcam, processes the video stream, and outputs it in real time as a virtual device that appears in apps like Skype, Hangouts, or Zoom. It supports both Mac & PC.
+* [NewTek NDI Video](https://support.newtek.com/hc/en-us/articles/115001951393-NDI-VIRTUAL-INPUT) is another example of an application that uses data from [various sources](https://ndi.tv/tools/) and displays it as a virtual camera. There is deep integration with [Skype](https://www.newtek.com/blog/tips/using-ndi-in-skype/). It works completely on Windows, partially on MacOS. There is integration with OBS using the [plugin](https://obsproject.com/forum/resources/obs-ndi-newtek-ndi%E2%84%A2-integration-into-obs-studio.528/).
 
 # Detailed design
 
